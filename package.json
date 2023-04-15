@@ -1,0 +1,31 @@
+{
+  "name": "movie-review-api",
+  "version": "1.0.0",
+  "description": "Backend API for movie-review application.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "movie",
+    "movie-review",
+    "review"
+  ],
+  "author": "Mehrab Hasan Eshan, Syed Tamzid, Mutamir Samit, Istihad Ahmed, Rezwan Aziz Prince",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.18.2",
+    "express-jwt": "^7.7.7",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.4",
+    "mysql": "^2.18.1",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0",
+    "random-int": "^3.0.0",
+    "uuid": "^9.0.0"
+  }
+}
